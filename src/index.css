@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #FFFAF3;
+}
+
+h2 {
+  font-size: 78px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0px;
+  background-color: #718FA4;
+  color: #011726;
+}
+
+.Uploadform {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+}
