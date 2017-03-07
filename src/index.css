@@ -1,6 +1,12 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  flex-direction: column;
   font-family: sans-serif;
   background-color: #FFFAF3;
 }
@@ -15,7 +21,21 @@ h2 {
 }
 
 .Uploadform {
-  position: absolute;
-  bottom: 50%;
+  padding: 20px;
+  /*bottom: 50%;*/
+  /*width: 100%;*/
+}
+
+.Footer {
+  padding: 20px;
+  background-color: green;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
+}
+
+.content {
+  flex: 1;
+  background-color: yellow;
 }
