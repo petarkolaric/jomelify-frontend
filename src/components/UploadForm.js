@@ -4,7 +4,7 @@ import FileInput from 'react-file-input'
 const UploadForm = (props) => {
   return (
     <div className="Uploadform">
-      <form action="http://localhost:4000/jomelify" method="post" encType="multipart/form-data">
+      <form action={`http://${window.location.hostname}:4000/jomelify`} method="post" encType="multipart/form-data">
         <FileInput
           accept=".png,.gif,.jpeg,.jpg"
           className="form-item"
